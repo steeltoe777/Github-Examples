@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Goodbye Moon"
-        run:  echo "Goodbye Moon!"
+        run:  echo "Goodbye Moon! {{ github.repository }}"
